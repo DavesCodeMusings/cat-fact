@@ -29,7 +29,7 @@ we'll simply download a predefined template and modify it.
 
 You can find the template at:
 
-https://github.com/DavesCodeMusings/catfact/step1.html
+https://github.com/DavesCodeMusings/cat-fact/step1.html
 
 Download the file and open it in Firefox or another web browser. You
 should see a message like the following:
@@ -55,7 +55,7 @@ about movies. Ours is about cats. We just need to do a little editing.
 If you're a JavaScript pro, you can try this on your own. For the rest
 of us, take a look at the step 2 example provided.
 
-https://github.com/DavesCodeMusings/catfact/step2.html
+https://github.com/DavesCodeMusings/cat-fact/step2.html
 
 Download the file (or modify step1.html) and open it up in your web
 browser. You should see something like the following message:
@@ -80,7 +80,7 @@ The trick is to assign an _id_ to the paragraph and then use JavaScript's
 `document.getElementById()` function along with the innerHTML property
 to change the text. Or you can just download step 3.
 
-https://github.com/DavesCodeMusings/catfact/step3.html
+https://github.com/DavesCodeMusings/cat-fact/step3.html
 
 ### Step 4: Making it Look Nice
 You now get a random cat fact when you load the page into a browser.
@@ -93,7 +93,7 @@ Wikimedia Commons and a little formatting of the text style. If you're
 familiar with CSS, you can make the changes on your own. Otherwise,
 feel free to download the step 4 file.
 
-https://github.com/DavesCodeMusings/catfact/step4.html
+https://github.com/DavesCodeMusings/cat-fact/step4.html
 
 ## Next Steps
 Search the internet for the phrase "public api for testing" and browse
