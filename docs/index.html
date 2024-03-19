@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>API Demo</title>
+    <script>
+        async function showCatFact() {
+            const response = await fetch("https://catfact.ninja/fact");
+            const catFact = await response.json();
+            console.log(catFact);
+            document.getElementById("cat-fact").innerHTML = catFact.fact;
+        }
+    </script>
+    <style>
+        body {
+            background-image: url("images/tabby.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #cat-fact {
+            font-size: 2em;
+            text-align: center;
+            margin: 1em;
+        }
+    </style>
+</head>
+
+<body onload="showCatFact()">
+    <p id="cat-fact">Random Cat Fact</p>
+</body>
+
+</html>
