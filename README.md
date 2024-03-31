@@ -13,7 +13,7 @@ Use a web browser to explore the Cat Fact API at https://catfact.ninja
    attribute.
 
 The output from https://catfact.ninja/fact is in a format called JSON,
-which is an acronym for (JavaScript Object Notation.) JavaScript is the
+which is an acronym for JavaScript Object Notation. JavaScript is the
 programming language used by web browsers, so it's relatively easy to
 display a JSON-based cat fact in a web page.
 
